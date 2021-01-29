@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Verdana", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* MENU */
@@ -26,7 +26,7 @@
 }
 
 .name a {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #D2D2D2;
   text-decoration: none;
 }
@@ -42,7 +42,6 @@
 }
 
 .links a {
-  font-size: 1.5em;
   color: #D2D2D2;
   text-decoration: none;
 }
@@ -53,4 +52,40 @@
 
 .cocktail-bar {
   margin-left: 30px;
+}
+
+/* BIO */
+
+.bio-container {
+  background-color: #E7E7E7;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bio-image img {
+  width: 300px;
+  display: flex;
+  align-self: center;
+}
+
+.bio-image-klaas img {
+  border-radius: 50%;
+}
+
+.bio-text {
+  width: 600px;
+  line-height: 2;
+  text-align: justify;
+}
+
+.bio-text h2 {
+  font-size: 1.5em;
 }
