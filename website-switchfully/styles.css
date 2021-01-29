@@ -64,10 +64,10 @@
 
 .bio {
   width: 1000px;
-  height: 400px;
+  padding: 50px 0 50px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .bio-developer {
@@ -93,6 +93,8 @@
 
 .bio-text h2 {
   font-size: 1.5em;
+  line-height: 1;
+  padding-bottom: 5px;
 }
 
 /* FOOTER */
