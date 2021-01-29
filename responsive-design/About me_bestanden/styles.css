@@ -27,6 +27,9 @@
   padding: 10px 0 20px;
 }
 
+.name {
+}
+
 .name a {
   font-size: 1.5em;
   color: #D2D2D2;
@@ -46,11 +49,14 @@
 .links a {
   color: #D2D2D2;
   text-decoration: none;
-  margin-left: 30px;
 }
 
 .links a:hover {
   color: #F2F2F2;
+}
+
+.cocktail-bar {
+  margin-left: 30px;
 }
 
 /* BIO */
@@ -64,12 +70,10 @@
   align-items: flex-start;
 }
 
-.bio-developer {
-  height: 450px;
-}
-
 .bio-image img {
   height: 300px;
+  display: flex;
+  align-self: center;
 }
 
 .bio-image-klaas img {
@@ -86,6 +90,11 @@
   font-size: 1.5em;
   line-height: 1;
   padding-bottom: 15px;
+}
+
+.bio-developer {
+  height: 450px;
+  padding-bottom: 50px;
 }
 
 .bio-developer h2 {
