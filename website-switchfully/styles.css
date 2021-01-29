@@ -94,7 +94,12 @@
 .bio-text h2 {
   font-size: 1.5em;
   line-height: 1;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.bio-developer h2 {
+  line-height: 0.5;
+  padding-bottom: 15px;
 }
 
 /* FOOTER */
