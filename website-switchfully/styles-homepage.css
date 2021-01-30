@@ -5,16 +5,16 @@
 }
 
 .bio {
-  padding: 50px 0 50px;
+  padding: 40px 0 40px;
   align-items: flex-start;
 }
 
 .bio-welcome {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .bio-developer {
-  padding-bottom: 100px
+  padding-bottom: 90px
 }
 
 .bio-image img {
