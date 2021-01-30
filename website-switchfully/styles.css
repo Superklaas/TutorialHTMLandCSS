@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MENU */
+
+.menu-container {
+  background-color: #282828;
+}
+
+.menu {
+  padding: 10px 0 20px;
+}
+
+.name a {
+  font-size: 1.5em;
+  color: #D2D2D2;
+  text-decoration: none;
+}
+
+.name a:hover {
+  color: #F2F2F2;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.links a {
+  color: #D2D2D2;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.links a:hover {
+  color: #F2F2F2;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: #282828;
+}
+
+.footer {
+  height: 70px;
+  align-items: center;
+}
+
+.copyright {
+  color: #D2D2D2;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.fa {
+  font-size: 30px;
+  width: 40px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);;
+  color: white;
+}
+
+/*RESPONSIVE DESIGN*/
+
+/* Desktop Styles */
+@media only screen and (min-width: 1281px) {
+  .menu-container,
+  .bio-container,
+  .footer-container {
+    width: 1280px;
+    margin: 0 auto;
+  }
+}
