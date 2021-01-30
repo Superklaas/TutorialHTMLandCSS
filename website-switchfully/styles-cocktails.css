@@ -21,14 +21,17 @@
 
 .cocktail img {
   height: 250px;
+}
+
+.cocktail audio {
+  margin-bottom: 20px;
+}
+
+.cocktail ul {
   margin-bottom: 20px;
 }
 
 .cocktail li {
   list-style-type: none;
   padding-bottom: 20px;
-}
-
-.cocktail ul {
-  margin-bottom: 20px;
 }
